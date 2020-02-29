@@ -6,9 +6,9 @@
 
 Ecos-cpp solves the following optimization problem:
 
-$$\begin{align}\arg\min_{x} & c^T x\\
+$$\begin{align}\arg\min_{x}\quad & c^T x\\
 \mathrm{s.t.}\quad& h-Gx\in K\\
-& Ax-b = 0$$
+& Ax-b = 0\end{align}$$
 
 where $K$ is a direct product of positive orthant $\mathbb{R}_+^p$, quadratic cone $\{(y, z) | \|z\|_2 \le y\}$ and exponential cone $\mathrm{closure}\{(x,y,z) | \exp\frac{x}{z} \le \frac{y}{z}, z>0\}$. 
 
